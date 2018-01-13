@@ -76,7 +76,7 @@ Short Flag   | Long Flag                            | Description
 `-e`         | `--entry-file <entry-file>`          | The entry file for your application. <br><br>_Defaults to  `index.ios.js`._
 `-n`         | `--build-name <name>`                | Name of the build. Wrap in quotes if it includes spaces.
 `-p`         | `--plist-file <plist-file>`          | Specify a custom `.plist` file path. <br><br>_Defaults to `Info.plist`._
-`-t`         | `--target <target>`                  | One of `all`, `debug` or `none` which specifies the target audience of the build. <br><br>_Defaults to `none`._
+`-t`         | `--target <target>`                  | One of `all`, `debug` or `none` which specifies the target audience of the build. Using `debug` will also build using the **debugging** configuration; `all` will use a **release** configuration. <br><br>_Defaults to `none`._
 
 #### Other Options
 
